@@ -21,7 +21,8 @@ public class TodoRepository {
         return jdbcTemplate.queryForObject("SELECT * FROM spring_todo WHERE id=?;", new Object[]{id}, new BeanPropertyRowMapper<>(Todo.class));
     }
 
-    public List<Todo> addTodo(Todo todo) {
+    public List<Todo>
+    addTodo(Todo todo) {
         jdbcTemplate.update("INSERT INTO spring_todo (item) VALUES(?);",
                 new Object[]{todo.getId(), todo.getItem()});
         return findAllTodo();

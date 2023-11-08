@@ -18,6 +18,7 @@ Project: Maven based project.
 ## Project Structure
 ⏩Models:
    - Todo
+
 ⏩Controller
    - TodoController
    
@@ -30,12 +31,20 @@ Project: Maven based project.
 3. spring-boot-starter-jdbc
 ---------------------------------
 ## Screenshoots
-Bean Creation :
-<img src="src/main/java/com/rev/Screenshots/beansSetUp.png">
-Login:
-<img src="src/main/java/com/rev/Screenshots/login.png">
-Home:
-<img src="src/main/java/com/rev/Screenshots/home.png">
-Register:
-<img src="src/main/java/com/rev/Screenshots/register.png">
- 
+- METHODS:
+    - GET :
+  
+    <img src="ss/get.png">
+    
+    - POST:
+    
+    <img src="ss/post.png">
+
+    - PUT:
+  
+    <img src="ss/put.png">
+
+    - DELETE:
+  
+    <img src="ss/delete.png">
+
